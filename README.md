@@ -1,0 +1,2 @@
+# CRUDLARAVEL8
+CRUD em Laravel 8 
