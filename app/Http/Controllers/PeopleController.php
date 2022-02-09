@@ -8,6 +8,9 @@ use Illuminate\Routing\Controller as Controller;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
 use App\Models\People;
+use FilesystemIterator;
+use RecursiveIteratorIterator;
+use Symfony\Component\Finder\Iterator\RecursiveDirectoryIterator;
 
 class PeopleController extends Controller
 {
