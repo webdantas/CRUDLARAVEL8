@@ -17,9 +17,7 @@ class CreatePeoplesTable extends Migration
             $table->id('id');
             $table->string('name');
             $table->string('email')->unique();
-
             $table->string('category_id');
-            // $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
 
             $table->timestamps();
         });
